@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   runtimeCompiler: true,
-  server: {
+  devServer: {
     port: process.env.PORT || 3000,
     host: '0.0.0.0'
   },
